@@ -19,4 +19,3 @@ RUN npm run build
 
 EXPOSE 8080
 CMD [ "node", "dist/main" ]
-docker run -p 8080:3000 -d alexander-govea/nest-js-dockerize
