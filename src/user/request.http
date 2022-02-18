@@ -1,0 +1,10 @@
+### Create comment
+POST http://localhost:8080/users
+content-type: application/json
+
+{
+    "name": "roberto" 
+}
+
+### Create comment
+GET http://localhost:8080/users
